@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JavaScript Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fontawesome.com\css\all.css">
+</head>
+
+<body>
+    <div style="text-align: center; font-size: 20px; margin-top: 5px;">
+        The time is <span class="time" style="font-weight: bold;"></span>
+    </div>
+    <section class="header">
+        <h3 style="text-decoration: underline;">Quiz</h3>
+        <h4>How well do you know Segun?</h4>
+    </section>
+    <section class="quiz-body">
+        <div class="question-card">
+            <div class="question-wrap">
+                <div class="question-number">1.)</div>
+                <div class="question-item">
+                    <div class="question">
+                        My favourite soft drink?
+                    </div>
+                    <div class="options">
+                        <div>
+                            <input type="radio" name="OneOption" value="CocaCola" id="OneOptionA"> <span>CocaCola</span>
+                        </div>
+                        <div>
+
+                            <input type="radio" name="OneOption" id="OneOptionB" value="Pepsi"> <span>Pepsi</span>
+                        </div>
+                        <div>
+
+                            <input type="radio" name="OneOption" id="OneOptionC" value="Bigi"> <span>Bigi</span>
+                        </div>
+                        <div>
+
+                            <input type="radio" name="OneOption" id="OneOptionD" value="Fanta"> <span>Fanta
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="question-card">
+            <div class="question-wrap">
+                <div class="question-number">2.)</div>
+                <div class="question-item">
+                    <div class="question">
+                        My favourite TV show? (tough one)
+                    </div>
+                    <div class="options">
+                        <div>
+
+                            <input type="radio" name="TwoOption" id="TwoOptionA" value="GOT"> <span>GOT</span>
+                        </div>
+                        <div>
+
+                            <input type="radio" name="TwoOption" id="TwoOptionB" value="The Good Place"> <span>The Good
+                                Place</span>
+                        </div>
+                        <div>
+
+                            <input type="radio" name="TwoOption" id="TwoOptionC" value="Money Heist"> <span>Money
+                                Heist</span>
+                        </div>
+                        <div>
+
+                            <input type="radio" name="TwoOption" id="TwoOptionD" value="Peaky Blinders"><span> Peaky
+                                Blinders
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="question-card">
+            <div class="question-wrap">
+                <div class="question-number">3.)</div>
+                <div class="question-item">
+                    <div class="question">
+                        What do I look out for in a babe?
+                    </div>
+                    <div class="options">
+                        <div>
+
+                            <input type="radio" name="ThreeOption" id="ThreeOptionA" value="Ass"> <span>Ass</span>
+                        </div>
+                        <div>
+
+                            <input type="radio" name="ThreeOption" id="ThreeOptionB" value="Skin"> <span>Skin</span>
+                        </div>
+                        <div>
+
+                            <input type="radio" name="ThreeOption" id="ThreeOptionC" value="Face"> <span>Face</span>
+                        </div>
+                        <div>
+
+                            <input type="radio" name="ThreeOption" id="ThreeOptionD" value="Legs"> <span>Sense
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="question-card">
+            <div class="question-wrap">
+                <div class="question-number">4.)</div>
+                <div class="question-item">
+                    <div class="question">
+                        What I wanted as a kid but never got?
+                    </div>
+                    <div class="options">
+                        <div>
+
+                            <input type="radio" name="FourOption" id="FourOptionA" value="Airplane">
+                            <span>Airplane</span>
+                        </div>
+                        <div>
+
+                            <input type="radio" name="FourOption" id="FourOptionB" value="iPhone11">
+                            <span>iPhone11</span>
+                        </div>
+                        <div>
+
+                            <input type="radio" name="FourOption" id="FourOptionC" value="Bicycle"> <span>Bicycle</span>
+                        </div>
+                        <div>
+
+                            <input type="radio" name="FourOption" id="FourOptionD" value="Green Card"> <span> Green Card
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="question-card">
+            <div class="question-wrap">
+                <div class="question-number">5.)</div>
+                <div class="question-item">
+                    <div class="question">
+                        Country I would best love to visit?
+                    </div>
+                    <div class="options">
+                        <div>
+
+                            <input type="radio" name="FiveOption" id="FiveOptionA" value="Spain"> <span>Spain</span>
+                        </div>
+                        <div>
+
+                            <input type="radio" name="FiveOption" id="FiveOptionB" value="Canada"> <span>Canada</span>
+                        </div>
+                        <div>
+
+                            <input type="radio" name="FiveOption" id="FiveOptionC" value="China"> <span>USA</span>
+                        </div>
+                        <div>
+
+                            <input type="radio" name="FiveOption" id="FiveOptionD" value="UK"> <span> UK
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="question-card">
+            <div class="question-wrap">
+                <div class="question-number">6.)</div>
+                <div class="question-item">
+                    <div class="question">
+                        How many siblings do I have?
+                    </div>
+                    <div class="options">
+                        <div>
+
+                            <input type="radio" name="SixOption" id="SixOptionA" value="1"> <span>1</span>
+                        </div>
+                        <div>
+
+                            <input type="radio" name="SixOption" id="SixOptionB" value="2"> <span>2</span>
+                        </div>
+                        <div>
+
+                            <input type="radio" name="SixOption" id="SixOptionC" value="3"> <span>3</span>
+                        </div>
+                        <div>
+
+                            <input type="radio" name="SixOption" id="SixOptionD" value="4"> <span> 4
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="question-card">
+            <div class="question-wrap">
+                <div class="question-number">7.)</div>
+                <div class="question-item">
+                    <div class="question">
+                        My height?
+                    </div>
+                    <div class="options">
+                        <div>
+
+                            <input type="radio" name="SevenOption" id="SevenOptionA" value="5ft11"> <span>5ft11</span>
+                        </div>
+                        <div>
+
+                            <input type="radio" name="SevenOption" id="SevenOptionB" value="6ft3"> <span>6ft3</span>
+                        </div>
+                        <div>
+
+                            <input type="radio" name="SevenOption" id="SevenOptionC" value="6ft5"> <span>6ft5</span>
+                        </div>
+                        <div>
+
+                            <input type="radio" name="SevenOption" id="SevenOptionD" value="5ft7"> <span>5ft7 (in
+                                respect to Leo)
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="question-card">
+            <div class="question-wrap">
+                <div class="question-number">8.)</div>
+                <div class="question-item">
+                    <div class="question">
+                        What food do I hate?
+                    </div>
+                    <div class="options">
+                        <div>
+
+                            <input type="radio" name="EightOption" id="EightOptionA" value="Amala"> <span>Amala</span>
+                        </div>
+                        <div>
+
+                            <input type="radio" name="EightOption" id="EightOptionB" value="Rice"> <span>Rice</span>
+                        </div>
+                        <div>
+
+                            <input type="radio" name="EightOption" id="EightOptionC" value="Beans"> <span>Beans</span>
+                        </div>
+                        <div>
+
+                            <input type="radio" name="EightOption" id="EightOptionD" value="Semo"> <span>Semo
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="question-card">
+            <div class="question-wrap">
+                <div class="question-number">9.)</div>
+                <div class="question-item">
+                    <div class="question">
+                        What I do with my free time?
+                    </div>
+                    <div class="options">
+                        <div>
+
+                            <input type="radio" name="NineOption" id="NineOptionA" value="code"> <span>Write code</span>
+                        </div>
+                        <div>
+
+                            <input type="radio" name="NineOption" id="NineOptionB" value="Twitter"> <span>Twitter</span>
+                        </div>
+                        <div>
+
+                            <input type="radio" name="NineOption" id="NineOptionC" value="Read"> <span>Read </span>
+                        </div>
+                        <div>
+
+                            <input type="radio" name="NineOption" id="NineOptionD" value="Pray"> <span> Pray
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="question-card">
+            <div class="question-wrap">
+                <div class="question-number">10.)</div>
+                <div class="question-item">
+                    <div class="question">
+                        What football club do I support? (Bonus)
+                    </div>
+                    <div class="options">
+                        <div>
+
+                            <input type="radio" name="TenOption" id="TenOptionA" value="Chelsea"> <span>Chelsea</span>
+                        </div>
+                        <div>
+
+                            <input type="radio" name="TenOption" id="TenOptionB" value="Real Madrid"> <span>Real
+                                Madrid</span>
+                        </div>
+                        <div>
+
+                            <input type="radio" name="TenOption" id="TenOptionC" value="Barcelona">
+                            <span>Barcelona</span>
+                        </div>
+                        <div>
+
+                            <input type="radio" name="TenOption" id="TenOptionD" value="Liverpool"> <span>Liverpool
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="submit-btn">
+            <button type="submit" class="submit-button">Submit</button>
+        </div>
+    </section>
+    <section class="score-modal">
+        <div class="modal-wrap">
+            <p>You got <span style="font-weight:bold;" class="result-score"></span> over 10!!</p>
+            <p>That's <span style="font-weight: bold;" class="adjective"></span>... Try again? :-)</p>
+            <p style="color: red">Thanks for taking the quiz</p>
+            <small>"ask a developer to show you the answers if you're curious"</small>
+            <br>
+            <button class="close-btn">Close</button>
+        </div>
+    </section>
+    <div style="text-align: center; font-size: 20px; margin-top: 5px;">
+        you completed the quiz in <span class="seconds" style="font-weight: bold;"></span>
+        seconds</div>
+    <footer style="margin-top: 30px; text-align: center;">
+        By <a href="http://segunos.tk" target="blank">SegunOS</a>
+    </footer>
+    <script src="app.js"></script>
+    <script src="fontawesome.com\js\all.js"></script>
+    <!-- <script
+    src="https://kit.fontawesome.com/c772bfb479.js"
+    crossorigin="anonymous"
+  ></script> -->
+</body>
+
+</html>
