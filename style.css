@@ -78,7 +78,7 @@ body {
     background-color: whitesmoke;
     z-index: 999;
     position: fixed;
-    bottom: 280px;
+    bottom: 100px;
     margin: auto;
     width: 100%;
     transform: scale(0);
