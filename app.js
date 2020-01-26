@@ -180,7 +180,13 @@ function submitQuiz() {
     }
 
     console.log(`${score} / 10 `)
-
+    
+    //disable button on submit
+    
+const submitButton = document.querySelector('.submit-button')
+    
+    submitButton.disabled = true
+    
     //DYNAMIC INPUTS IN THE MODAL THAT POPS UP ON SUBMIT
 
     var resultScore = document.querySelector('.result-score')
